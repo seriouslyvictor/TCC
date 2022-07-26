@@ -135,10 +135,12 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-     gap: 3.2rem;
+    gap: 3.2rem;
+    margin-top: 4.8rem;
 }
 
 .card-t {
+    margin: 1.6rem;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -179,12 +181,13 @@ body {
 .container-cursos {
     margin-top: 4.8rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 4.8rem;
 
 }
 
 .card-c {
+    max-width: 350px;
     border: 1px solid var(--cor2);
     background-color: white;
     position: relative;
@@ -206,7 +209,7 @@ body {
 }
 
 .container-informacoes i {
-    color: var(--cor1);
+    color: var(--cor2l);
     font-size: 2rem;
 }
 
@@ -305,7 +308,6 @@ body {
 
 header {
     display: flex;
-    background-color: var(--cor1);
     color: var(--cor2);
     height: 6rem;
     
@@ -335,6 +337,7 @@ ul i {
     font-size: 2.4rem;
 }
 ul > li {
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 0.8rem;
@@ -346,7 +349,7 @@ img {
 }
 
 .destaque {
-    background-color: var(--cor2);
+    background-color: var(--cor2l);
     color: var(--cinza2);
     padding: 0.8rem;
     border-radius: 9px;
@@ -475,6 +478,7 @@ section {
 }
 
 .titulo-parceiros {
+    font-size: 2.4rem;
     text-align: center;
 }
 

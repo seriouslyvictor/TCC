@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instituto Eurofarma</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animista.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bcf72d1d5f.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header>
@@ -26,9 +29,9 @@
     <main>
         <section class="hero grid2">
             <div class="hero-texto">
-                <h1 class="euro titulo-primario">Eurofarma</h1>
-                <h2 class="inst titulo-secundario">Instituto</h2>
-                <p class="hero-desc"> Educação <span class="grad">transforma</span>. Com essa premissa motivadora em mente o Instituto Eurofarma atua com equipe própria e com o apoio de parceiros técnicos para desenvolver os educandos em três segmentos: <span class="grad">Formação e Qualificação</span>, <span class="grad">Educação Complementar</span> e <span class="grad">Educação Ambiental.</span></p>
+                <h1 class="euro titulo-primario text-focus-in">Eurofarma</h1>
+                <h2 class="inst titulo-secundario text-focus-in">Instituto</h2>
+                <p class="hero-desc slide-in-blurred-left"> Educação <span class="grad">transforma</span>. Com essa premissa motivadora em mente o Instituto Eurofarma atua com equipe própria e com o apoio de parceiros técnicos para desenvolver os educandos em três segmentos: <span class="grad">Formação e Qualificação</span>, <span class="grad">Educação Complementar</span> e <span class="grad">Educação Ambiental.</span></p>
                 <div class="container-btn">
                     <button class="btn btn-primario">Inscreva-se!</button>
                     <button class="btn btn-secundario">Saiba mais <i class="fa-solid fa-arrow-down-long"></i></button>
@@ -37,40 +40,40 @@
   
             </div>
             <div class="hero-imagem">
-                <img src="" alt="Ilustração da Pessoa com certificado">
+                <img src="imagens/books.svg" alt="Ilustração da Pessoa com certificado">
             </div>
         </section>
         <section class="como-funciona">
             <h2 class="titulo-secundario">Como Funciona?</h2>
             <div class="container-passos grid2">
-                <div class="passos-texto">
-                    <div class="container-passost">
-                        <P class="numero">01</P>
-                        <h3 class="titulo-terciario">Escolha um Curso</h3>
+                <div class="passos-texto" data-aos="fade-right">
+                    <div class="container-passost" >
+                        <p class="numero">01</P>
+                        <h3 class="titulo-terciario" >Escolha um Curso</h3>
                     </div>
                     <p class="como-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid pariatur voluptate dolor ab optio officia laudantium, quo nihil repellendus deserunt accusantium distinctio ex quam exercitationem molestias sequi praesentium soluta?</p>
                 </div>
-                <div class="passos-imagem">
+                <div class="passos-imagem" data-aos="fade-left">
                     <img src="imagens/escolher.svg" alt="">
                 </div>
-                <div class="passos-imagem">
+                <div class="passos-imagem" data-aos="fade-left">
                     <img src="imagens/accept.svg" alt="">
                 </div>
-                <div class="passos-texto">
+                <div class="passos-texto" data-aos="fade-right">
                     <div class="container-passost">
                         <P class="numero">02</P>
                         <h3 class="titulo-terciario">Faça a Inscrição</h3>
                     </div>
                     <p class="como-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid pariatur voluptate dolor ab optio officia laudantium, quo nihil repellendus deserunt accusantium distinctio ex quam exercitationem molestias sequi praesentium soluta?</p>
                 </div>
-                <div class="passos-texto">
+                <div class="passos-texto" data-aos="fade-left">
                     <div class="container-passost">
                         <P class="numero">03</P>
                         <h3 class="titulo-terciario">De olho nas datas!</h3>
                     </div>
                     <p class="como-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid pariatur voluptate dolor ab optio officia laudantium, quo nihil repellendus deserunt accusantium distinctio ex quam exercitationem molestias sequi praesentium soluta?</p>
                 </div>
-                <div class="passos-imagem">
+                <div class="passos-imagem"data-aos="fade-right" >
                     <img src="imagens/date.svg" alt="">
                 </div>
             </div>
@@ -79,7 +82,8 @@
         <section class="cursos">
             <h2 class="titulo-secundario">Cursos Disponíveis</h2>
             <div class="container-cursos">
-                <div class="card-c">
+                <div class="card-c" data-aos="flip-right"
+                data-aos-duration="1000">
                     <img src="imagens/cursos/green-chameleon-s9CC2SKySJM-unsplash.jpg" alt="Imagem Curso">
                     <h3 class="titulo-card-c grad">Técnicas Administrativas</h3>
                         <div class="container-informacoes">
@@ -96,7 +100,8 @@
                             <button class="btn btn-primario btn-pequeno">Detalhes</button>
                         </div>
                 </div>
-                <div class="card-c">
+                <div class="card-c" data-aos="flip-right"
+                data-aos-duration="1000" data-aos-delay="100">
                     <img src="imagens/cursos/dev.jpg" alt="Imagem Curso">
                     <h3 class="titulo-card-c grad">Programador Front End</h3>
                         <div class="container-informacoes">
@@ -113,7 +118,8 @@
                             <button class="btn btn-primario btn-pequeno">Detalhes</button>
                         </div>
                 </div>
-                <div class="card-c disabled">
+                <div class="card-c disabled" data-aos="flip-right"
+                data-aos-duration="1000"  data-aos-delay="150">
                     <img src="imagens/cursos/link.jpg" alt="Imagem Curso">
                     <h3 class="titulo-card-c grad">Informática Básica</h3>
                         <div class="container-informacoes">
@@ -136,22 +142,22 @@
         <section class="sobre-cursos">
             <h2 class="titulo-secundario">Sobre os cursos</h2>
             <div class="container-cards">
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-delay="">
                     <i class="fa-solid fa-hand-holding-dollar card-icon fa-fw"></i>
                     <h3 class="titulo-card">100% Gratuíto</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat eum facere fugit cum repudiandae laboriosam repellendus nulla suscipit, aut cumque necessitatibus esse qui laudantium corrupti vero porro soluta! Consequatur!</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-delay="100">
                     <i class="fa-solid fa-medal card-icon fa-fw"></i>
                     <h3 class="titulo-card">Certificações</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat eum facere fugit cum repudiandae laboriosam repellendus nulla suscipit, aut cumque necessitatibus esse qui laudantium corrupti vero porro soluta! Consequatur!</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-delay="150">
                     <i class="fa-solid fa-handshake-simple card-icon fa-fw"></i>
                     <h3 class="titulo-card">Compromisso com a qualidade</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat eum facere fugit cum repudiandae laboriosam repellendus nulla suscipit, aut cumque necessitatibus esse qui laudantium corrupti vero porro soluta! Consequatur!</p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up" data-aos-delay="200">
                     <i class="fa-solid fa-user-plus card-icon fa-fw"></i>
                     <h3 class="titulo-card">Inclusivo</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat eum facere fugit cum repudiandae laboriosam repellendus nulla suscipit, aut cumque necessitatibus esse qui laudantium corrupti vero porro soluta! Consequatur!</p>
@@ -244,6 +250,9 @@
     <footer>
         Feito com ❤ para o curso de Front End
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 <script src="script.js"></script>
 </html>
