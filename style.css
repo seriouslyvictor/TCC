@@ -36,6 +36,7 @@
 html {
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
     
 }
 
@@ -80,6 +81,20 @@ body {
 .titulo-terciario {
     font-size: 3.6rem;
     color: var(--cinza);
+}
+
+/* Estilização dos Links */
+
+a, 
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover,
+a:focus {
+    color: var(--cor1);
+    transition: all 0.4s;
 }
 
 /* Estilzação dos botões */
@@ -246,7 +261,7 @@ body {
 
 .item-sanfona{
     position: relative;
-    transition: all 0.5s;
+    transition: all 0.1s;
     padding: 1.6rem 0.8rem;
     background-color: #fff;
     border-radius: 0px 0px 9px 9px;
@@ -261,27 +276,29 @@ body {
     color: var(--cinza3);
     justify-self: center;
 }
+
 .titulo-sanfona{
     font-size: 2.4rem;
     font-weight: 600;
     color: var(--cinza);
     cursor: pointer;
 }
+
 .icone-sanfona{
     font-size: 2.4rem;
     color: var(--cinza);
 }
+
 .desc-sanfona  {
-    height: 0;
-    opacity: 0;
+    text-align: justify;
+    display: none;
     justify-self: center;
     font-size: 1.8rem;
     line-height: 2.4rem;
     color: var(--cinza);
-    grid-column: 1 /-1;
+    grid-column: 2/3;
+    margin-top: 1.2rem;
 }
-
-
 
 .ativa {
     border-top: 5px solid;
@@ -289,8 +306,9 @@ body {
 }
 
 .ativa .desc-sanfona {
-    height: auto;
-    opacity: 1;
+    display: block;
+    -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+    animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 }
 
 .ativa .numero-sanfona {
@@ -350,9 +368,12 @@ img {
 
 .destaque {
     background-color: var(--cor2l);
-    color: var(--cinza2);
     padding: 0.8rem;
     border-radius: 9px;
+}
+
+.destaque > a {
+    color: var(--cinza2);
 }
 
 
