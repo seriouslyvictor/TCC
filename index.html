@@ -7,6 +7,7 @@
     <title>Instituto Eurofarma</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animista.css">
+    <link rel="stylesheet" href="cta.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bcf72d1d5f.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -22,7 +23,7 @@
                 <li><a href="#cursos"><i class="fa-solid fa-chalkboard-user"></i> Cursos</a></li>
                 <li><a href="#faq"><i class="fa-solid fa-circle-question"></i> Perguntas Frequentes</a></li>
                 <li><a href="#relatos"><i class="fa-solid fa-star-half-stroke"></i> Relatos</a></li>
-                <li class="destaque"><a href="#cta"><i class="fa-solid fa-user-graduate"></i> Quero aprender!</a></li>
+                <li class="destaque"><a href="#"><i class="fa-solid fa-user-graduate"></i> Quero aprender!</a></li>
             </ul>
         </nav>
     </header>
@@ -33,7 +34,7 @@
                 <h2 class="inst titulo-secundario text-focus-in">Instituto</h2>
                 <p class="hero-desc slide-in-blurred-left"> Educação <span class="grad">transforma</span>. Com essa premissa motivadora em mente o Instituto Eurofarma atua com equipe própria e com o apoio de parceiros técnicos para desenvolver os educandos em três segmentos: <span class="grad">Formação e Qualificação</span>, <span class="grad">Educação Complementar</span> e <span class="grad">Educação Ambiental.</span></p>
                 <div class="container-btn">
-                    <button class="btn btn-primario">Inscreva-se!</button>
+                    <button class="btn btn-primario signup">Inscreva-se!</button>
                     <button class="btn btn-secundario"><a href="#cursos">Saiba mais</a> <i class="fa-solid fa-arrow-down-long"></i></button>
                 </div>
                     <p class="atendimentos"><span class="grad">Mais de 125.000</span> atendimentos em 15 anos com <span class="grad">R$ 125M+</span> investidos. </p>
@@ -247,6 +248,31 @@
 
         </section>
     </main>
+
+
+        <form class="form-inscricao modal escondido" action="#">
+            <button class="modal-fechar" type="button">X</button>
+            <h1 class="form-titulo">Faça sua Inscrição!</h1>
+            <label for="nome">Nome: <input type="text" id="nome" name="nome" placeholder="Nome Completo" required></label>
+            <label for="email">Email: <input type="email" id="email" name="email" placeholder="email@email.com" required></label>
+            <label for="nascimento">Data de Nascimento <input type="date" id="nascimento" name="nascimento" required></label>
+            <label for="ddd">Whatsapp: <input type="number" step="1" min="0" max="99" id="ddd" name="ddd" placeholder="DDD" required> <input type="number" name="telefone" id="telefone" required placeholder="#####-####"></label>
+            <label for="uf">Estado: <select name="uf" id="uf">
+                <option value="AC">AC</option><option value="AL">AL</option><option value="AM">AM</option><option value="AP">AP</option><option value="BA">BA</option><option value="CE">CE</option><option value="DF">DF</option><option value="ES">ES</option><option value="GO">GO</option><option value="MA">MA</option><option value="MG">MG</option><option value="MS">MS</option><option value="MT">MT</option><option value="PA">PA</option><option value="PB">PB</option><option value="PE">PE</option><option value="PI">PI</option><option value="PR">PR</option><option value="RJ">RJ</option><option value="RN">RN</option><option value="RO">RO</option><option value="RR">RR</option><option value="RS">RS</option><option value="SC">SC</option><option value="SE">SE</option><option value="SP">SP</option><option value="TO">TO</option></select>
+            </select></label>
+            <label for="cidade">Cidade <input type="text" id="cidade" name="cidade" required></label>
+            <label for="">Já realizou outros cursos no Instituto Eurofarma?</label>
+            <div class="radio">
+                <label for="cursosim">Sim <input type="radio" name="curso" id="cursosim" value="Sim"></label>
+                <label for="cursonao">Não <input type="radio" name="curso" id="cursonao" value="Não"></label>
+            </div>
+            <label for="check"><input type="checkbox" name="check" id="check" value="Aceito"> Aceito fornecer meus dados pessoais a fim de receber informativos e contato do Instituto Eurofarma, por meio de seus canais digitais de relacionamento.</label>
+        </form>
+
+        <div class="overlay escondido">
+
+        </div>
+
     <footer>
         Feito com ❤ para o curso de Front End
     </footer>
