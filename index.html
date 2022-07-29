@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animista.css">
     <link rel="stylesheet" href="cta.css">
+    <link rel="stylesheet" href="queries.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bcf72d1d5f.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -19,13 +20,15 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#como-funciona"><i class="fa-solid fa-lightbulb"></i> Como Funciona?</a></li>
-                <li><a href="#cursos"><i class="fa-solid fa-chalkboard-user"></i> Cursos</a></li>
-                <li><a href="#faq"><i class="fa-solid fa-circle-question"></i> Perguntas Frequentes</a></li>
-                <li><a href="#relatos"><i class="fa-solid fa-star-half-stroke"></i> Relatos</a></li>
-                <li class="destaque"><a href="#"><i class="fa-solid fa-user-graduate"></i> Quero aprender!</a></li>
+                <li><a href="#como-funciona"><i class="fa-solid fa-lightbulb icon"></i> Como Funciona?</a></li>
+                <li><a href="#cursos"><i class="fa-solid fa-chalkboard-user icon"></i> Cursos</a></li>
+                <li><a href="#faq"><i class="fa-solid fa-circle-question icon"></i> Perguntas Frequentes</a></li>
+                <li><a href="#relatos"><i class="fa-solid fa-star-half-stroke icon"></i> Relatos</a></li>
+                <li class="destaque"><a href="#"><i class="fa-solid fa-user-graduate icon"></i> Quero aprender!</a></li>
             </ul>
         </nav>
+        <button class="burguer"><i class="fa-solid fa-bars"></i></button>
+        <button class="closeburguer"><i class="fa-solid fa-xmark"></i></button>
     </header>
     <main>
         <section id="hero" class="hero grid2">
@@ -54,10 +57,10 @@
                     </div>
                     <p class="como-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid pariatur voluptate dolor ab optio officia laudantium, quo nihil repellendus deserunt accusantium distinctio ex quam exercitationem molestias sequi praesentium soluta?</p>
                 </div>
-                <div class="passos-imagem" data-aos="fade-left">
+                <div class="passos-imagem step1" data-aos="fade-left">
                     <img src="imagens/escolher.svg" alt="">
                 </div>
-                <div class="passos-imagem" data-aos="fade-left">
+                <div class="passos-imagem step2" data-aos="fade-left">
                     <img src="imagens/accept.svg" alt="">
                 </div>
                 <div class="passos-texto" data-aos="fade-right">
@@ -74,7 +77,7 @@
                     </div>
                     <p class="como-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid pariatur voluptate dolor ab optio officia laudantium, quo nihil repellendus deserunt accusantium distinctio ex quam exercitationem molestias sequi praesentium soluta?</p>
                 </div>
-                <div class="passos-imagem"data-aos="fade-right" >
+                <div class="passos-imagem step3" data-aos="fade-right" >
                     <img src="imagens/date.svg" alt="">
                 </div>
             </div>
@@ -242,9 +245,6 @@
                     Os cursos são voltados para jovens e adultos em situação de vulnerabilidade econômica. A renda familiar será observada para priorizar as inscrições.</p>
                 </div>
             </div>
-
-        </section>
-        <section id="cta" class="cta">
 
         </section>
     </main>
