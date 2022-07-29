@@ -342,7 +342,7 @@ header {
     display: flex;
     color: var(--cor2);
     height: 6rem;
-    
+    position: relative;
     padding: 0.8rem;
     align-items: center;
     justify-content: space-between;

@@ -39,7 +39,6 @@ function abrirModal() {
 
 function abrirNavMobile() {
     console.log('usuário clicou');
-    nav.classList.toggle('nav-aberto');
     header.classList.toggle('mobile');
     
 }
