@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,264 +13,376 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bcf72d1d5f.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Primary Meta Tags -->
+    <title>Instituto Eurofarma - Mock</title>
+    <meta name="title" content="Instituto Eurofarma - Mock">
+    <meta name="description"
+        content="Site modelo para o projeto de HTML/CSS/JS dos alunos de Front End.
+
+Todas as informações desse site são fictícias e de nenhuma maneira representam ou pretendem representar o Instituto Eurofarma.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eurofarmacursos.netlify.app/">
+    <meta property="og:title" content="Instituto Eurofarma - Mock">
+    <meta property="og:description"
+        content="Site modelo para o projeto de HTML/CSS/JS dos alunos de Front End.
+
+Todas as informações desse site são fictícias e de nenhuma maneira representam ou pretendem representar o Instituto Eurofarma.">
+    <meta property="og:image" content="https://eurofarmacursos.netlify.app/imagens/Capybara-Lesson.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://eurofarmacursos.netlify.app/">
+    <meta property="twitter:title" content="Instituto Eurofarma - Mock">
+    <meta property="twitter:description"
+        content="Site modelo para o projeto de HTML/CSS/JS dos alunos de Front End.
+
+Todas as informações desse site são fictícias e de nenhuma maneira representam ou pretendem representar o Instituto Eurofarma.">
+    <meta property="twitter:image" content="https://eurofarmacursos.netlify.app/imagens/Capybara-Lesson.webp">
 </head>
+
 <body>
 
-        <header>
-            <div class="container-logo">
-                <a href="#"><img src="imagens/EuroFarma logo 200x200.png" alt="Logo Instiuto Eurofarma"></a>
+    <header>
+        <div class="container-logo">
+            <a href="#"><img src="imagens/EuroFarma logo 200x200.png" alt="Logo Instiuto Eurofarma"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#como-funciona"><i class="fa-solid fa-lightbulb icon"></i> Como Funciona?</a></li>
+                <li><a href="#cursos"><i class="fa-solid fa-chalkboard-user icon"></i> Cursos</a></li>
+                <li><a href="#faq"><i class="fa-solid fa-circle-question icon"></i> Perguntas Frequentes</a></li>
+                <li><a href="#relatos"><i class="fa-solid fa-star-half-stroke icon"></i> Relatos</a></li>
+                <li class="destaque"><a href="#"><i class="fa-solid fa-user-graduate icon"></i> Quero aprender!</a></li>
+            </ul>
+        </nav>
+        <button class="burguer"><i class="fa-solid fa-bars"></i></button>
+        <button class="closeburguer"><i class="fa-solid fa-xmark"></i></button>
+    </header>
+    <main>
+        <section id="hero" class="hero grid2">
+            <div class="hero-texto">
+                <h1 class="euro titulo-primario text-focus-in">Eurofarma</h1>
+                <h2 class="inst titulo-secundario text-focus-in">Instituto</h2>
+                <p class="hero-desc slide-in-blurred-left"> Educação <span class="grad">transforma</span>. Com essa
+                    premissa motivadora em mente o Instituto Eurofarma atua com equipe própria e com o apoio de
+                    parceiros técnicos para desenvolver os educandos em três segmentos: <span class="grad">Formação e
+                        Qualificação</span>, <span class="grad">Educação Complementar</span> e <span
+                        class="grad">Educação Ambiental.</span></p>
+                <div class="container-btn">
+                    <button class="btn btn-primario signup">Inscreva-se!</button>
+                    <button class="btn btn-secundario"><a href="#cursos">Saiba mais</a> <i
+                            class="fa-solid fa-arrow-down-long"></i></button>
+                </div>
+                <p class="atendimentos"><span class="grad">Mais de 125.000</span> atendimentos em 15 anos com <span
+                        class="grad">R$ 125M+</span> investidos. </p>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#como-funciona"><i class="fa-solid fa-lightbulb icon"></i> Como Funciona?</a></li>
-                    <li><a href="#cursos"><i class="fa-solid fa-chalkboard-user icon"></i> Cursos</a></li>
-                    <li><a href="#faq"><i class="fa-solid fa-circle-question icon"></i> Perguntas Frequentes</a></li>
-                    <li><a href="#relatos"><i class="fa-solid fa-star-half-stroke icon"></i> Relatos</a></li>
-                    <li class="destaque"><a href="#"><i class="fa-solid fa-user-graduate icon"></i> Quero aprender!</a></li>
-                </ul>
-            </nav>
-            <button class="burguer"><i class="fa-solid fa-bars"></i></button>
-            <button class="closeburguer"><i class="fa-solid fa-xmark"></i></button>
-        </header>
-        <main>
-            <section id="hero" class="hero grid2">
-                <div class="hero-texto">
-                    <h1 class="euro titulo-primario text-focus-in">Eurofarma</h1>
-                    <h2 class="inst titulo-secundario text-focus-in">Instituto</h2>
-                    <p class="hero-desc slide-in-blurred-left"> Educação <span class="grad">transforma</span>. Com essa premissa motivadora em mente o Instituto Eurofarma atua com equipe própria e com o apoio de parceiros técnicos para desenvolver os educandos em três segmentos: <span class="grad">Formação e Qualificação</span>, <span class="grad">Educação Complementar</span> e <span class="grad">Educação Ambiental.</span></p>
-                    <div class="container-btn">
-                        <button class="btn btn-primario signup">Inscreva-se!</button>
-                        <button class="btn btn-secundario"><a href="#cursos">Saiba mais</a> <i class="fa-solid fa-arrow-down-long"></i></button>
-                    </div>
-                        <p class="atendimentos"><span class="grad">Mais de 125.000</span> atendimentos em 15 anos com <span class="grad">R$ 125M+</span> investidos. </p>
-                </div>
-                <div class="hero-imagem">
-                    <img src="imagens/books.svg" alt="Ilustração da Pessoa com certificado">
-                </div>
-            </section>
-            <section id="como-funciona" class="como-funciona">
-                <h2 class="titulo-secundario">Como Funciona?</h2>
-                <div class="container-passos grid2">
-                    <div class="passos-texto" data-aos="fade-right">
-                        <div class="container-passost" >
-                            <p class="numero">01</P>
-                            <h3 class="titulo-terciario" >Escolha um Curso</h3>
-                        </div>
-                        <p class="como-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid pariatur voluptate dolor ab optio officia laudantium, quo nihil repellendus deserunt accusantium distinctio ex quam exercitationem molestias sequi praesentium soluta?</p>
-                    </div>
-                    <div class="passos-imagem step1" data-aos="fade-left">
-                        <img src="imagens/escolher.svg" alt="">
-                    </div>
-                    <div class="passos-imagem step2" data-aos="fade-left">
-                        <img src="imagens/accept.svg" alt="">
-                    </div>
-                    <div class="passos-texto" data-aos="fade-right">
-                        <div class="container-passost">
-                            <P class="numero">02</P>
-                            <h3 class="titulo-terciario">Faça a Inscrição</h3>
-                        </div>
-                        <p class="como-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid pariatur voluptate dolor ab optio officia laudantium, quo nihil repellendus deserunt accusantium distinctio ex quam exercitationem molestias sequi praesentium soluta?</p>
-                    </div>
-                    <div class="passos-texto" data-aos="fade-left">
-                        <div class="container-passost">
-                            <P class="numero">03</P>
-                            <h3 class="titulo-terciario">De olho nas datas!</h3>
-                        </div>
-                        <p class="como-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid pariatur voluptate dolor ab optio officia laudantium, quo nihil repellendus deserunt accusantium distinctio ex quam exercitationem molestias sequi praesentium soluta?</p>
-                    </div>
-                    <div class="passos-imagem step3" data-aos="fade-right" >
-                        <img src="imagens/date.svg" alt="">
-                    </div>
-                </div>
-            </section>
-            <section id="cursos" class="cursos">
-                <h2 class="titulo-secundario">Cursos Disponíveis</h2>
-                <div class="container-cursos">
-                    <div class="card-c" data-aos="flip-right"
-                    data-aos-duration="1000">
-                        <img src="imagens/cursos/green-chameleon-s9CC2SKySJM-unsplash.jpg" alt="Imagem Curso">
-                        <h3 class="titulo-card-c grad">Técnicas Administrativas</h3>
-                            <div class="container-informacoes">
-                                <p><i class="fa-solid fa-cake-candles fa-fw"></i> 14 a 18 anos</p>
-                                <p><i class="fa-solid fa-hourglass fa-fw"></i> 4 meses </p>
-                                <p><i class="fa-solid fa-sun fa-fw"></i> 8h30 às 12h </p>
-                                <p><i class="fa-solid fa-moon fa-fw"></i> 15h às 18h30</p>
-        
-                                <p><i class="fa-solid fa-play fa-fw"></i> 08/08/2022</p>
-                                <p><i class="fa-solid fa-graduation-cap fa-fw"></i> 08/12/2022</p>
-                                <p><i class="fa-solid fa-location-dot fa-fw"></i> São Paulo - SP</p>
-                            </div>
-                            <div class="container-detalhes">
-                                <button class="btn btn-primario btn-pequeno">Detalhes</button>
-                            </div>
-                    </div>
-                    <div class="card-c" data-aos="flip-right"
-                    data-aos-duration="1000" data-aos-delay="100">
-                        <img src="imagens/cursos/dev.jpg" alt="Imagem Curso">
-                        <h3 class="titulo-card-c grad">Programador Front End</h3>
-                            <div class="container-informacoes">
-                                <p><i class="fa-solid fa-cake-candles fa-fw"></i> 14 a 18 anos</p>
-                                <p><i class="fa-solid fa-hourglass fa-fw"></i> 4 meses </p>
-                                <p><i class="fa-solid fa-sun fa-fw"></i> 8h30 às 12h </p>
-                                <p><i class="fa-solid fa-moon fa-fw"></i> 15h às 18h30</p>
-        
-                                <p><i class="fa-solid fa-play fa-fw"></i> 08/08/2022</p>
-                                <p><i class="fa-solid fa-graduation-cap fa-fw"></i> 08/12/2022</p>
-                                <p><i class="fa-solid fa-location-dot fa-fw"></i> São Paulo - SP</p>
-                            </div>
-                            <div class="container-detalhes">
-                                <button class="btn btn-primario btn-pequeno">Detalhes</button>
-                            </div>
-                    </div>
-                    <div class="card-c disabled" data-aos="flip-right"
-                    data-aos-duration="1000"  data-aos-delay="150">
-                        <img src="imagens/cursos/link.jpg" alt="Imagem Curso">
-                        <h3 class="titulo-card-c grad">Informática Básica</h3>
-                            <div class="container-informacoes">
-                                <p><i class="fa-solid fa-cake-candles fa-fw"></i> 14 a 18 anos</p>
-                                <p><i class="fa-solid fa-hourglass fa-fw"></i> 4 meses </p>
-                                <p><i class="fa-solid fa-sun fa-fw"></i> 8h30 às 12h </p>
-                                <p><i class="fa-solid fa-moon fa-fw"></i> 15h às 18h30</p>
-        
-                                <p><i class="fa-solid fa-play fa-fw"></i> 08/08/2022</p>
-                                <p><i class="fa-solid fa-graduation-cap fa-fw"></i> 08/12/2022</p>
-                                <p><i class="fa-solid fa-location-dot fa-fw"></i> São Paulo - SP</p>
-                            </div>
-                            <div class="container-detalhes">
-                                <button class="btn btn-primario btn-pequeno">Avise-me</button>
-                            </div>
-                    </div>
-                </div>
-            </section>
-            <section id="sobre-cursos" class="sobre-cursos">
-                <h2 class="titulo-secundario">Sobre os cursos</h2>
-                <div class="container-cards">
-                    <div class="card" data-aos="zoom-in-up" data-aos-delay="">
-                        <i class="fa-solid fa-hand-holding-dollar card-icon fa-fw"></i>
-                        <h3 class="titulo-card">100% Gratuíto</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat eum facere fugit cum repudiandae laboriosam repellendus nulla suscipit, aut cumque necessitatibus esse qui laudantium corrupti vero porro soluta! Consequatur!</p>
-                    </div>
-                    <div class="card" data-aos="zoom-in-up" data-aos-delay="100">
-                        <i class="fa-solid fa-medal card-icon fa-fw"></i>
-                        <h3 class="titulo-card">Certificações</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat eum facere fugit cum repudiandae laboriosam repellendus nulla suscipit, aut cumque necessitatibus esse qui laudantium corrupti vero porro soluta! Consequatur!</p>
-                    </div>
-                    <div class="card" data-aos="zoom-in-up" data-aos-delay="150">
-                        <i class="fa-solid fa-handshake-simple card-icon fa-fw"></i>
-                        <h3 class="titulo-card">Compromisso com a qualidade</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat eum facere fugit cum repudiandae laboriosam repellendus nulla suscipit, aut cumque necessitatibus esse qui laudantium corrupti vero porro soluta! Consequatur!</p>
-                    </div>
-                    <div class="card" data-aos="zoom-in-up" data-aos-delay="200">
-                        <i class="fa-solid fa-user-plus card-icon fa-fw"></i>
-                        <h3 class="titulo-card">Inclusivo</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat eum facere fugit cum repudiandae laboriosam repellendus nulla suscipit, aut cumque necessitatibus esse qui laudantium corrupti vero porro soluta! Consequatur!</p>
-                    </div>
-                </div>
-            </section>
-            <section id="parceiros" class="parceiros">
-                <h2 class="titulo-secundario titulo-parceiros">Nossos Parceiros</h2>
-                <div class="container-parceiros">
-                    <img src="imagens/parceiros/2560px-Sodexo_logo.svg.png" alt="Sodexo"><img src="imagens/parceiros/logo-senai1.png" alt="Senai"><img src="imagens/parceiros/senac-logo-1-1.png" alt="Senac"><img src="imagens/parceiros/Yázigi_logo.png" alt="Yazigi">
-                </div>
-            </section>
-            <section id="relatos" class="relatos">
-                <h3 class="titulo-terciario sub-relatos">O que nossos alunos dizem</h3>
-                <h2 class="titulo-secundario">Relatos</h2>
-                <div class="grid2">
-                    <div class="card-t">
-                        <img src="imagens/alunos/dollar-gill-QKb25xDmxxA-unsplash.jpg" alt="Imagem do aluno">
-                        <p class="relato-aluno"><i class="fa-solid fa-quote-left fa-pull-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor illo nostrum aut magnam, id asperiores distinctio, non odit architecto reprehenderit voluptatum sit voluptates. Suscipit nihil officia a quis sapiente autem.<i class="fa-solid fa-quote-right"></i></p>
-                        <p class="nome-aluno">Nome do aluno</p> <p class="ano-aluno">Técnicas Administrativas - 2021</p>
-                    </div>
-                    <div class="card-t">
-                        <img src="imagens/alunos/good-faces-DavJROC1lBM-unsplash.jpg" alt="Imagem do aluno">
-                        <p class="relato-aluno"><i class="fa-solid fa-quote-left fa-pull-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor illo nostrum aut magnam, id asperiores distinctio, non odit architecto reprehenderit voluptatum sit voluptates. Suscipit nihil officia a quis sapiente autem.</p>
-                        <p class="nome-aluno">Nome do aluno</p> <p class="ano-aluno">Marketing - 2021</p>
-                    </div>
-                    <div class="card-t">
-                        <img src="imagens/alunos/natasha-kasim-BqD0Id4qemc-unsplash.jpg" alt="Imagem do Aluno">
-                        <p class="relato-aluno"><i class="fa-solid fa-quote-left fa-pull-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor illo nostrum aut magnam, id asperiores distinctio, non odit architecto reprehenderit voluptatum sit voluptates. Suscipit nihil officia a quis sapiente autem.</p>
-                        <p class="nome-aluno">Nome do ALuno</p> <p class="ano-aluno">Inglês - 2020</p>
-                    </div>
-                    <div class="card-t">
-                        <img src="imagens/alunos/vigneshwar-rajkumar-OBOf5-ZkBA8-unsplash.jpg" alt="Imagem do Aluno">
-                        <p class="relato-aluno"> <i class="fa-solid fa-quote-left fa-pull-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor illo nostrum aut magnam, id asperiores distinctio, non odit architecto reprehenderit voluptatum sit voluptates. Suscipit nihil officia a quis sapiente autem.</p>
-                        <p class="nome-aluno">Nome do aluno</p> <p class="ano-aluno">Front End - 2022</p>
-                    </div>
-                </div>
-            </section>
-            <section id="faq" class="faq">
-                <h2 class="titulo-secundario">Perguntas Frequentes</h2>
-                <div class="sanfona">
-                    <div class="item-sanfona">
-                        <p class="numero-sanfona">01</p>
-                        <p class="titulo-sanfona">Qual é o perfil dos alunos do instituto Eurofarma?</p>
-                        <i class="fa-solid fa-chevron-down icone-sanfona"></i>
-                        <p class="desc-sanfona">Para os cursos de formação profissional é preciso ser estudante ou ter sido formado em escola pública. <br>
-                        Cada curso é oferecido para faixa etária específica. Acesse a página de cada curso abaixo e confira. <br>
-                        Os cursos são voltados para jovens e adultos em situação de vulnerabilidade econômica. A renda familiar será observada para priorizar as inscrições.</p>
-                    </div>
-                    <div class="item-sanfona">
-                        <p class="numero-sanfona">02</p>
-                        <p class="titulo-sanfona">Preciso pagar algo pelos cursos do Instituto Eurofarma?</p>
-                        <i class="fa-solid fa-chevron-down icone-sanfona"></i>
-                        <p class="desc-sanfona">Para os cursos de formação profissional é preciso ser estudante ou ter sido formado em escola pública. <br>
-                        Cada curso é oferecido para faixa etária específica. Acesse a página de cada curso abaixo e confira. <br>
-                        Os cursos são voltados para jovens e adultos em situação de vulnerabilidade econômica. A renda familiar será observada para priorizar as inscrições.</p>
-                    </div>
-                    <div class="item-sanfona">
-                        <p class="numero-sanfona">03</p>
-                        <p class="titulo-sanfona">Posso me Inscrever em mais de um curso por semestre?</p>
-                        <i class="fa-solid fa-chevron-down icone-sanfona"></i>
-                        <p class="desc-sanfona">Para os cursos de formação profissional é preciso ser estudante ou ter sido formado em escola pública. <br>
-                        Cada curso é oferecido para faixa etária específica. Acesse a página de cada curso abaixo e confira. <br>
-                        Os cursos são voltados para jovens e adultos em situação de vulnerabilidade econômica. A renda familiar será observada para priorizar as inscrições.</p>
-                    </div>
-                    <div class="item-sanfona">
-                        <p class="numero-sanfona">04</p>
-                        <p class="titulo-sanfona">Consigo fazer carteirinha de estudante pelo instituto?</p>
-                        <i class="fa-solid fa-chevron-down icone-sanfona"></i>
-                        <p class="desc-sanfona">Para os cursos de formação profissional é preciso ser estudante ou ter sido formado em escola pública. <br>
-                        Cada curso é oferecido para faixa etária específica. Acesse a página de cada curso abaixo e confira. <br>
-                        Os cursos são voltados para jovens e adultos em situação de vulnerabilidade econômica. A renda familiar será observada para priorizar as inscrições.</p>
-                    </div>
-                    <div class="item-sanfona">
-                        <p class="numero-sanfona">05</p>
-                        <p class="titulo-sanfona">O curso que quero fazer não está com inscrições abertas.</p>
-                        <i class="fa-solid fa-chevron-down icone-sanfona"></i>
-                        <p class="desc-sanfona">Para os cursos de formação profissional é preciso ser estudante ou ter sido formado em escola pública. <br>
-                        Cada curso é oferecido para faixa etária específica. Acesse a página de cada curso abaixo e confira. <br>
-                        Os cursos são voltados para jovens e adultos em situação de vulnerabilidade econômica. A renda familiar será observada para priorizar as inscrições.</p>
-                    </div>
-                </div>
-            </section>
-        </main>
-            <form class="form-inscricao modal escondido" action="#">
-                <button class="modal-fechar" type="button">X</button>
-                <h1 class="form-titulo">Faça sua Inscrição!</h1>
-                <label for="nome">Nome: <input type="text" id="nome" name="nome" placeholder="Nome Completo" required></label>
-                <label for="email">Email: <input type="email" id="email" name="email" placeholder="email@email.com" required></label>
-                <label for="nascimento">Data de Nascimento <input type="date" id="nascimento" name="nascimento" required></label>
-                <label for="ddd">Whatsapp: <input type="number" step="1" min="0" max="99" id="ddd" name="ddd" placeholder="DDD" required> <input type="number" name="telefone" id="telefone" required placeholder="#####-####"></label>
-                <label for="uf">Estado: <select name="uf" id="uf">
-                    <option value="AC">AC</option><option value="AL">AL</option><option value="AM">AM</option><option value="AP">AP</option><option value="BA">BA</option><option value="CE">CE</option><option value="DF">DF</option><option value="ES">ES</option><option value="GO">GO</option><option value="MA">MA</option><option value="MG">MG</option><option value="MS">MS</option><option value="MT">MT</option><option value="PA">PA</option><option value="PB">PB</option><option value="PE">PE</option><option value="PI">PI</option><option value="PR">PR</option><option value="RJ">RJ</option><option value="RN">RN</option><option value="RO">RO</option><option value="RR">RR</option><option value="RS">RS</option><option value="SC">SC</option><option value="SE">SE</option><option value="SP">SP</option><option value="TO">TO</option></select>
-                </select></label>
-                <label for="cidade">Cidade <input type="text" id="cidade" name="cidade" required></label>
-                <label for="">Já realizou outros cursos no Instituto Eurofarma?</label>
-                <div class="radio">
-                    <label for="cursosim">Sim <input type="radio" name="curso" id="cursosim" value="Sim"></label>
-                    <label for="cursonao">Não <input type="radio" name="curso" id="cursonao" value="Não"></label>
-                </div>
-                <label for="check"><input type="checkbox" name="check" id="check" value="Aceito"> Aceito fornecer meus dados pessoais a fim de receber informativos e contato do Instituto Eurofarma, por meio de seus canais digitais de relacionamento.</label>
-            </form>
-            <div class="overlay escondido">
+            <div class="hero-imagem">
+                <img src="imagens/books.svg" alt="Ilustração da Pessoa com certificado">
             </div>
-        <footer>
-            Feito com ❤ para o curso de Front End
-        </footer>
+        </section>
+        <section id="como-funciona" class="como-funciona">
+            <h2 class="titulo-secundario">Como Funciona?</h2>
+            <div class="container-passos grid2">
+                <div class="passos-texto" data-aos="fade-right">
+                    <div class="container-passost">
+                        <p class="numero">01</P>
+                        <h3 class="titulo-terciario">Escolha um Curso</h3>
+                    </div>
+                    <p class="como-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid pariatur
+                        voluptate dolor ab optio officia laudantium, quo nihil repellendus deserunt accusantium
+                        distinctio ex quam exercitationem molestias sequi praesentium soluta?</p>
+                </div>
+                <div class="passos-imagem step1" data-aos="fade-left">
+                    <img src="imagens/escolher.svg" alt="">
+                </div>
+                <div class="passos-imagem step2" data-aos="fade-left">
+                    <img src="imagens/accept.svg" alt="">
+                </div>
+                <div class="passos-texto" data-aos="fade-right">
+                    <div class="container-passost">
+                        <P class="numero">02</P>
+                        <h3 class="titulo-terciario">Faça a Inscrição</h3>
+                    </div>
+                    <p class="como-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid pariatur
+                        voluptate dolor ab optio officia laudantium, quo nihil repellendus deserunt accusantium
+                        distinctio ex quam exercitationem molestias sequi praesentium soluta?</p>
+                </div>
+                <div class="passos-texto" data-aos="fade-left">
+                    <div class="container-passost">
+                        <P class="numero">03</P>
+                        <h3 class="titulo-terciario">De olho nas datas!</h3>
+                    </div>
+                    <p class="como-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid pariatur
+                        voluptate dolor ab optio officia laudantium, quo nihil repellendus deserunt accusantium
+                        distinctio ex quam exercitationem molestias sequi praesentium soluta?</p>
+                </div>
+                <div class="passos-imagem step3" data-aos="fade-right">
+                    <img src="imagens/date.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="cursos" class="cursos">
+            <h2 class="titulo-secundario">Cursos Disponíveis</h2>
+            <div class="container-cursos">
+                <div class="card-c" data-aos="flip-right" data-aos-duration="1000">
+                    <img src="imagens/cursos/green-chameleon-s9CC2SKySJM-unsplash.jpg" alt="Imagem Curso">
+                    <h3 class="titulo-card-c grad">Técnicas Administrativas</h3>
+                    <div class="container-informacoes">
+                        <p><i class="fa-solid fa-cake-candles fa-fw"></i> 14 a 18 anos</p>
+                        <p><i class="fa-solid fa-hourglass fa-fw"></i> 4 meses </p>
+                        <p><i class="fa-solid fa-sun fa-fw"></i> 8h30 às 12h </p>
+                        <p><i class="fa-solid fa-moon fa-fw"></i> 15h às 18h30</p>
+
+                        <p><i class="fa-solid fa-play fa-fw"></i> 08/08/2022</p>
+                        <p><i class="fa-solid fa-graduation-cap fa-fw"></i> 08/12/2022</p>
+                        <p><i class="fa-solid fa-location-dot fa-fw"></i> São Paulo - SP</p>
+                    </div>
+                    <div class="container-detalhes">
+                        <button class="btn btn-primario btn-pequeno">Detalhes</button>
+                    </div>
+                </div>
+                <div class="card-c" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="100">
+                    <img src="imagens/cursos/dev.jpg" alt="Imagem Curso">
+                    <h3 class="titulo-card-c grad">Programador Front End</h3>
+                    <div class="container-informacoes">
+                        <p><i class="fa-solid fa-cake-candles fa-fw"></i> 14 a 18 anos</p>
+                        <p><i class="fa-solid fa-hourglass fa-fw"></i> 4 meses </p>
+                        <p><i class="fa-solid fa-sun fa-fw"></i> 8h30 às 12h </p>
+                        <p><i class="fa-solid fa-moon fa-fw"></i> 15h às 18h30</p>
+
+                        <p><i class="fa-solid fa-play fa-fw"></i> 08/08/2022</p>
+                        <p><i class="fa-solid fa-graduation-cap fa-fw"></i> 08/12/2022</p>
+                        <p><i class="fa-solid fa-location-dot fa-fw"></i> São Paulo - SP</p>
+                    </div>
+                    <div class="container-detalhes">
+                        <button class="btn btn-primario btn-pequeno">Detalhes</button>
+                    </div>
+                </div>
+                <div class="card-c disabled" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="150">
+                    <img src="imagens/cursos/link.jpg" alt="Imagem Curso">
+                    <h3 class="titulo-card-c grad">Informática Básica</h3>
+                    <div class="container-informacoes">
+                        <p><i class="fa-solid fa-cake-candles fa-fw"></i> 14 a 18 anos</p>
+                        <p><i class="fa-solid fa-hourglass fa-fw"></i> 4 meses </p>
+                        <p><i class="fa-solid fa-sun fa-fw"></i> 8h30 às 12h </p>
+                        <p><i class="fa-solid fa-moon fa-fw"></i> 15h às 18h30</p>
+
+                        <p><i class="fa-solid fa-play fa-fw"></i> 08/08/2022</p>
+                        <p><i class="fa-solid fa-graduation-cap fa-fw"></i> 08/12/2022</p>
+                        <p><i class="fa-solid fa-location-dot fa-fw"></i> São Paulo - SP</p>
+                    </div>
+                    <div class="container-detalhes">
+                        <button class="btn btn-primario btn-pequeno">Avise-me</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobre-cursos" class="sobre-cursos">
+            <h2 class="titulo-secundario">Sobre os cursos</h2>
+            <div class="container-cards">
+                <div class="card" data-aos="zoom-in-up" data-aos-delay="">
+                    <i class="fa-solid fa-hand-holding-dollar card-icon fa-fw"></i>
+                    <h3 class="titulo-card">100% Gratuíto</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat eum facere fugit cum
+                        repudiandae laboriosam repellendus nulla suscipit, aut cumque necessitatibus esse qui laudantium
+                        corrupti vero porro soluta! Consequatur!</p>
+                </div>
+                <div class="card" data-aos="zoom-in-up" data-aos-delay="100">
+                    <i class="fa-solid fa-medal card-icon fa-fw"></i>
+                    <h3 class="titulo-card">Certificações</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat eum facere fugit cum
+                        repudiandae laboriosam repellendus nulla suscipit, aut cumque necessitatibus esse qui laudantium
+                        corrupti vero porro soluta! Consequatur!</p>
+                </div>
+                <div class="card" data-aos="zoom-in-up" data-aos-delay="150">
+                    <i class="fa-solid fa-handshake-simple card-icon fa-fw"></i>
+                    <h3 class="titulo-card">Compromisso com a qualidade</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat eum facere fugit cum
+                        repudiandae laboriosam repellendus nulla suscipit, aut cumque necessitatibus esse qui laudantium
+                        corrupti vero porro soluta! Consequatur!</p>
+                </div>
+                <div class="card" data-aos="zoom-in-up" data-aos-delay="200">
+                    <i class="fa-solid fa-user-plus card-icon fa-fw"></i>
+                    <h3 class="titulo-card">Inclusivo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat eum facere fugit cum
+                        repudiandae laboriosam repellendus nulla suscipit, aut cumque necessitatibus esse qui laudantium
+                        corrupti vero porro soluta! Consequatur!</p>
+                </div>
+            </div>
+        </section>
+        <section id="parceiros" class="parceiros">
+            <h2 class="titulo-secundario titulo-parceiros">Nossos Parceiros</h2>
+            <div class="container-parceiros">
+                <img src="imagens/parceiros/2560px-Sodexo_logo.svg.png" alt="Sodexo"><img
+                    src="imagens/parceiros/logo-senai1.png" alt="Senai"><img src="imagens/parceiros/senac-logo-1-1.png"
+                    alt="Senac"><img src="imagens/parceiros/Yázigi_logo.png" alt="Yazigi">
+            </div>
+        </section>
+        <section id="relatos" class="relatos">
+            <h3 class="titulo-terciario sub-relatos">O que nossos alunos dizem</h3>
+            <h2 class="titulo-secundario">Relatos</h2>
+            <div class="grid2">
+                <div class="card-t">
+                    <img src="imagens/alunos/dollar-gill-QKb25xDmxxA-unsplash.jpg" alt="Imagem do aluno">
+                    <p class="relato-aluno"><i class="fa-solid fa-quote-left fa-pull-left"></i>Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Dolor illo nostrum aut magnam, id asperiores distinctio, non
+                        odit architecto reprehenderit voluptatum sit voluptates. Suscipit nihil officia a quis sapiente
+                        autem.<i class="fa-solid fa-quote-right"></i></p>
+                    <p class="nome-aluno">Nome do aluno</p>
+                    <p class="ano-aluno">Técnicas Administrativas - 2021</p>
+                </div>
+                <div class="card-t">
+                    <img src="imagens/alunos/good-faces-DavJROC1lBM-unsplash.jpg" alt="Imagem do aluno">
+                    <p class="relato-aluno"><i class="fa-solid fa-quote-left fa-pull-left"></i>Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Dolor illo nostrum aut magnam, id asperiores distinctio, non
+                        odit architecto reprehenderit voluptatum sit voluptates. Suscipit nihil officia a quis sapiente
+                        autem.</p>
+                    <p class="nome-aluno">Nome do aluno</p>
+                    <p class="ano-aluno">Marketing - 2021</p>
+                </div>
+                <div class="card-t">
+                    <img src="imagens/alunos/natasha-kasim-BqD0Id4qemc-unsplash.jpg" alt="Imagem do Aluno">
+                    <p class="relato-aluno"><i class="fa-solid fa-quote-left fa-pull-left"></i>Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Dolor illo nostrum aut magnam, id asperiores distinctio, non
+                        odit architecto reprehenderit voluptatum sit voluptates. Suscipit nihil officia a quis sapiente
+                        autem.</p>
+                    <p class="nome-aluno">Nome do ALuno</p>
+                    <p class="ano-aluno">Inglês - 2020</p>
+                </div>
+                <div class="card-t">
+                    <img src="imagens/alunos/vigneshwar-rajkumar-OBOf5-ZkBA8-unsplash.jpg" alt="Imagem do Aluno">
+                    <p class="relato-aluno"> <i class="fa-solid fa-quote-left fa-pull-left"></i>Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Dolor illo nostrum aut magnam, id asperiores distinctio, non
+                        odit architecto reprehenderit voluptatum sit voluptates. Suscipit nihil officia a quis sapiente
+                        autem.</p>
+                    <p class="nome-aluno">Nome do aluno</p>
+                    <p class="ano-aluno">Front End - 2022</p>
+                </div>
+            </div>
+        </section>
+        <section id="faq" class="faq">
+            <h2 class="titulo-secundario">Perguntas Frequentes</h2>
+            <div class="sanfona">
+                <div class="item-sanfona">
+                    <p class="numero-sanfona">01</p>
+                    <p class="titulo-sanfona">Qual é o perfil dos alunos do instituto Eurofarma?</p>
+                    <i class="fa-solid fa-chevron-down icone-sanfona"></i>
+                    <p class="desc-sanfona">Para os cursos de formação profissional é preciso ser estudante ou ter sido
+                        formado em escola pública. <br>
+                        Cada curso é oferecido para faixa etária específica. Acesse a página de cada curso abaixo e
+                        confira. <br>
+                        Os cursos são voltados para jovens e adultos em situação de vulnerabilidade econômica. A renda
+                        familiar será observada para priorizar as inscrições.</p>
+                </div>
+                <div class="item-sanfona">
+                    <p class="numero-sanfona">02</p>
+                    <p class="titulo-sanfona">Preciso pagar algo pelos cursos do Instituto Eurofarma?</p>
+                    <i class="fa-solid fa-chevron-down icone-sanfona"></i>
+                    <p class="desc-sanfona">Para os cursos de formação profissional é preciso ser estudante ou ter sido
+                        formado em escola pública. <br>
+                        Cada curso é oferecido para faixa etária específica. Acesse a página de cada curso abaixo e
+                        confira. <br>
+                        Os cursos são voltados para jovens e adultos em situação de vulnerabilidade econômica. A renda
+                        familiar será observada para priorizar as inscrições.</p>
+                </div>
+                <div class="item-sanfona">
+                    <p class="numero-sanfona">03</p>
+                    <p class="titulo-sanfona">Posso me Inscrever em mais de um curso por semestre?</p>
+                    <i class="fa-solid fa-chevron-down icone-sanfona"></i>
+                    <p class="desc-sanfona">Para os cursos de formação profissional é preciso ser estudante ou ter sido
+                        formado em escola pública. <br>
+                        Cada curso é oferecido para faixa etária específica. Acesse a página de cada curso abaixo e
+                        confira. <br>
+                        Os cursos são voltados para jovens e adultos em situação de vulnerabilidade econômica. A renda
+                        familiar será observada para priorizar as inscrições.</p>
+                </div>
+                <div class="item-sanfona">
+                    <p class="numero-sanfona">04</p>
+                    <p class="titulo-sanfona">Consigo fazer carteirinha de estudante pelo instituto?</p>
+                    <i class="fa-solid fa-chevron-down icone-sanfona"></i>
+                    <p class="desc-sanfona">Para os cursos de formação profissional é preciso ser estudante ou ter sido
+                        formado em escola pública. <br>
+                        Cada curso é oferecido para faixa etária específica. Acesse a página de cada curso abaixo e
+                        confira. <br>
+                        Os cursos são voltados para jovens e adultos em situação de vulnerabilidade econômica. A renda
+                        familiar será observada para priorizar as inscrições.</p>
+                </div>
+                <div class="item-sanfona">
+                    <p class="numero-sanfona">05</p>
+                    <p class="titulo-sanfona">O curso que quero fazer não está com inscrições abertas.</p>
+                    <i class="fa-solid fa-chevron-down icone-sanfona"></i>
+                    <p class="desc-sanfona">Para os cursos de formação profissional é preciso ser estudante ou ter sido
+                        formado em escola pública. <br>
+                        Cada curso é oferecido para faixa etária específica. Acesse a página de cada curso abaixo e
+                        confira. <br>
+                        Os cursos são voltados para jovens e adultos em situação de vulnerabilidade econômica. A renda
+                        familiar será observada para priorizar as inscrições.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <form class="form-inscricao modal escondido" action="#">
+        <button class="modal-fechar" type="button">X</button>
+        <h1 class="form-titulo">Faça sua Inscrição!</h1>
+        <label for="nome">Nome: <input type="text" id="nome" name="nome" placeholder="Nome Completo" required></label>
+        <label for="email">Email: <input type="email" id="email" name="email" placeholder="email@email.com"
+                required></label>
+        <label for="nascimento">Data de Nascimento <input type="date" id="nascimento" name="nascimento"
+                required></label>
+        <label for="ddd">Whatsapp: <input type="number" step="1" min="0" max="99" id="ddd" name="ddd" placeholder="DDD"
+                required> <input type="number" name="telefone" id="telefone" required placeholder="#####-####"></label>
+        <label for="uf">Estado: <select name="uf" id="uf">
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AM">AM</option>
+                <option value="AP">AP</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MG">MG</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="PR">PR</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="RS">RS</option>
+                <option value="SC">SC</option>
+                <option value="SE">SE</option>
+                <option value="SP">SP</option>
+                <option value="TO">TO</option>
+            </select>
+            </select></label>
+        <label for="cidade">Cidade <input type="text" id="cidade" name="cidade" required></label>
+        <label for="">Já realizou outros cursos no Instituto Eurofarma?</label>
+        <div class="radio">
+            <label for="cursosim">Sim <input type="radio" name="curso" id="cursosim" value="Sim"></label>
+            <label for="cursonao">Não <input type="radio" name="curso" id="cursonao" value="Não"></label>
+        </div>
+        <label for="check"><input type="checkbox" name="check" id="check" value="Aceito"> Aceito fornecer meus dados
+            pessoais a fim de receber informativos e contato do Instituto Eurofarma, por meio de seus canais digitais de
+            relacionamento.</label>
+    </form>
+    <div class="overlay escondido">
+    </div>
+    <footer>
+        Feito com ❤ para o curso de Front End
+    </footer>
     <script>
         AOS.init();
     </script>
 </body>
 <script src="script.js"></script>
+
 </html>
