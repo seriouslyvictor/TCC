@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://seriouslyvictor.github.io/TCC/sitemap.xml
