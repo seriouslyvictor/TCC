@@ -10,7 +10,7 @@
     --cinza: #495057;
     --cinza2: #dee2e6;
     --cinza3: #adb5bd;
-    --gradv: linear-gradient(235deg, rgba(0,31,176,1) 0%, rgba(25,66,252,1) 100%);
+    --gradv: linear-gradient(235deg, rgba(0, 31, 176, 1) 0%, rgba(25, 66, 252, 1) 100%);
 
     --fontp: 'Yantramanav', sans-serif;
 
@@ -30,14 +30,14 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
 html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    
+
 }
 
 
@@ -51,7 +51,7 @@ body {
 /* Gradientes */
 
 .grad {
-    background: -webkit-linear-gradient(235deg, rgba(0,31,176,1) 0%, rgba(25,66,252,1) 100%);
+    background: -webkit-linear-gradient(235deg, rgba(0, 31, 176, 1) 0%, rgba(25, 66, 252, 1) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -85,7 +85,7 @@ body {
 
 /* Estilização dos Links */
 
-a, 
+a,
 a:visited {
     text-decoration: none;
     color: inherit;
@@ -118,7 +118,8 @@ a:focus {
     padding: 0.8rem 1.6rem;
 }
 
-.burguer, .closeburguer {
+.burguer,
+.closeburguer {
     z-index: 998;
     border: none;
     background: none;
@@ -137,11 +138,10 @@ a:focus {
 .card {
     width: 22rem;
     background-color: #fff;
-    padding: 3.2rem 3.2rem 0.6rem 3.2rem ;
+    padding: 3.2rem 3.2rem 0.6rem 3.2rem;
     border-bottom: 2px solid var(--cor1);
     border-top-right-radius: 9px;
     border-top-left-radius: 9px
-   
 }
 
 .card-icon {
@@ -182,8 +182,8 @@ a:focus {
     margin-bottom: 1.6rem;
 }
 
-.nome-aluno{
-    background: -webkit-linear-gradient(235deg, rgba(0,31,176,1) 0%, rgba(25,66,252,1) 100%);
+.nome-aluno {
+    background: -webkit-linear-gradient(235deg, rgba(0, 31, 176, 1) 0%, rgba(25, 66, 252, 1) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -191,13 +191,13 @@ a:focus {
     font-size: 1.8rem;
 }
 
-.ano-aluno{
+.ano-aluno {
     color: var(--cinza3);
     font-size: 1.4rem;
     cursor: pointer;
 }
 
-.card-t > img {
+.card-t>img {
     width: 6.4rem;
     height: 6.4rem;
     object-fit: cover;
@@ -223,15 +223,15 @@ a:focus {
     border-radius: 9px;
 }
 
-.card-c > img {
-        border-radius: 9px 9px 0 0;
-        width: 100%;
-        height: 20rem;
-        object-fit: cover;
-    }
+.card-c>img {
+    border-radius: 9px 9px 0 0;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
 
 .container-informacoes {
-    margin: 1.6rem 1.6rem 0 1.6rem  ;
+    margin: 1.6rem 1.6rem 0 1.6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.6rem;
@@ -265,7 +265,7 @@ a:focus {
 /* ========================================= Fim estilização dos cards =========================================*/
 
 /* Estilização da Sanfona */
-.sanfona{
+.sanfona {
     margin-top: 3.2rem;
     position: relative;
     display: flex;
@@ -273,7 +273,7 @@ a:focus {
     gap: 1rem;
 }
 
-.item-sanfona{
+.item-sanfona {
     position: relative;
     transition: all 0.1s;
     padding: 1.6rem 0.8rem;
@@ -282,28 +282,28 @@ a:focus {
     box-shadow: 5px 5px 10px var(--cinza);
     display: grid;
     grid-template-columns: 0.5fr 9fr 0.5fr;
-    
+
 }
 
-.numero-sanfona{
+.numero-sanfona {
     font-size: 2.8rem;
     color: var(--cinza3);
     justify-self: center;
 }
 
-.titulo-sanfona{
+.titulo-sanfona {
     font-size: 2.4rem;
     font-weight: 600;
     color: var(--cinza);
     cursor: pointer;
 }
 
-.icone-sanfona{
+.icone-sanfona {
     font-size: 2.4rem;
     color: var(--cinza);
 }
 
-.desc-sanfona  {
+.desc-sanfona {
     text-align: justify;
     display: none;
     justify-self: center;
@@ -329,13 +329,14 @@ a:focus {
     color: var(--cor1);
 }
 
-.ativa .titulo-sanfona, .ativa .icone-sanfona {
+.ativa .titulo-sanfona,
+.ativa .icone-sanfona {
     color: var(--cor2);
 }
 
 
 
-/* Fim da estilização Sanfona */ 
+/* Fim da estilização Sanfona */
 
 
 header {
@@ -359,7 +360,7 @@ nav {
     margin-right: 1.8rem;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     list-style-type: none;
     gap: 3.2rem;
@@ -368,7 +369,8 @@ nav > ul {
 ul i {
     font-size: 2.4rem;
 }
-ul > li {
+
+ul>li {
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -386,7 +388,7 @@ img {
     border-radius: 9px;
 }
 
-.destaque > a {
+.destaque>a {
     color: var(--cinza2);
 }
 
@@ -409,8 +411,7 @@ section {
 }
 
 .cursos {
-    background-color: var(--cor1ul);
-    background-image: url(imagens/multi-waves-d.svg);
+    background-color: hsl(50, 50%, 96%);
 }
 
 .faq {
@@ -452,18 +453,18 @@ section {
     font-size: 2rem;
 }
 
-.container-btn{
+.container-btn {
     display: flex;
     gap: 3.2rem;
     justify-content: center;
     margin-bottom: 4.8rem;
 }
 
-.hero-imagem > img {
+.hero-imagem>img {
     width: 100%;
 }
 
-.container-passos{
+.container-passos {
     row-gap: 4.8rem;
 }
 
@@ -497,13 +498,13 @@ section {
     position: relative;
 }
 
-.passos-imagem::before{
-  content: url(imagens/blob-transparente.png);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
+.passos-imagem::before {
+    content: url(imagens/blob-transparente.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
 
 
@@ -525,7 +526,7 @@ section {
     justify-content: space-evenly;
 }
 
-.container-parceiros > img {
+.container-parceiros>img {
     transition: all 0.8s linear;
     height: 6.4rem;
     width: auto;
@@ -533,14 +534,14 @@ section {
     filter: grayscale(80%);
 }
 
-.container-parceiros > img:hover {
+.container-parceiros>img:hover {
 
     filter: grayscale(0%);
 }
 
 .sub-relatos {
     font-size: 1.8rem;
-    color:  var(--cinza3);
+    color: var(--cinza3);
 }
 
 footer {
@@ -551,4 +552,14 @@ footer {
     align-items: center;
     background-color: #001FB0;
     color: var(--cinza2);
+}
+
+p {
+    line-height: 1.5;
+}
+
+.container--disclaimer a {
+    margin: .75rem;
+    display: inline-block;
+    font: 600 2rem/1 arial, sans-serif;
 }
